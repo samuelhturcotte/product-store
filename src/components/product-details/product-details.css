@@ -1,0 +1,182 @@
+.description-header {
+    background-color: #F5F5F5;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    max-height: 50px;
+    position: fixed;
+    top: 67px;
+    left: 0;
+    right: 0;
+
+}
+
+.header-text {
+    margin-left: 30px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.picture-container {
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin: 0 30px 10px 50px;
+}
+
+.description-picture {
+    padding: 20px;
+    object-fit: contain;
+}
+
+.mini-section-container {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+
+.title-description {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-left: 1px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.star-description {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.description-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.description-item {
+    margin: 0 0 0 1px;
+}
+
+.bold-title {
+    font-weight: bold;
+}
+
+.price-container {
+    font-size: 1rem;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #E92C63;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+
+    .description-header {
+        position: fixed;
+        top: 145px;
+    }
+
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 220px;
+    }
+
+    .picture-container {
+        margin: 0 auto;
+    }
+
+    .description-picture {
+        max-height: 300px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .section-container {
+        margin: 30px 10px 10px 10px;
+    }
+
+    .header-text {
+        margin-left: 12px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 415px) and (max-width: 540px) {
+
+    .description-header {
+        position: fixed;
+        top: 145px;
+    }
+
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 220px;
+    }
+
+    .picture-container {
+        margin: 0 auto;
+        max-width: 400px;
+
+    }
+
+    .description-picture {
+        max-height: 400px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+
+    .section-container {
+        margin: 30px 10px 10px 10px;
+    }
+
+    .header-text {
+        margin-left: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 541px) and (max-width: 1280px) {
+
+    .description-picture {
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .picture-container {
+        margin: 0 30px 20px 30px;
+        max-height: 100%;
+    }
+
+    .description-header {
+        position: fixed;
+        top: 65px;
+    }
+
+    .description-container {
+        margin-top: 135px;
+    }
+
+    .description-list {
+        margin-right: 10px;
+    }
+
+
+    .header-text {
+        margin-left: 12px;
+    }
+}

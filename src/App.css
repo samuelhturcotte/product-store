@@ -1,0 +1,9 @@
+main {
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 315px) and (max-width: 540px) {
+  main {
+      margin-top: 160px;
+    }
+}
